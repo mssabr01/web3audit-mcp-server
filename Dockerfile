@@ -2,7 +2,7 @@ FROM python:3.12.8-slim-bookworm
 
 # Metadata
 LABEL org.opencontainers.image.description="Web3 Security Audit Tools - Offline-Ready"
-LABEL org.opencontainers.image.source="https://github.com/YOUR_USERNAME/web3auit-mpc-server"
+LABEL org.opencontainers.image.source="https://github.com/mssabr01/web3auit-mpc-server"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     git curl build-essential libffi-dev nodejs npm && \
